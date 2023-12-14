@@ -14,7 +14,11 @@ body{
 }
 
 .modal{
+    margin: 100px 50px;
+    gap: 25px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: white;
     width: 641px;
@@ -25,11 +29,42 @@ body{
     backdrop-filter: blur(15px);
 }
 
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap:32px
+}
+
+.input-code{
+ width: 400px;
+ height: 50px;
+ flex-shrink: 0;
+}
+
+.button-sign{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F25019;    
+}
+
 .social-midia-buttons{
- background-color: white;
+ background-color: #ffffff;
+ width: 125px;
+ height: 50px;
+ flex-shrink: 0;
 }
 
 .bird{
     width: 948px;
     height: 834px;
+    margin: 123px 100px 123px;
 }
+
